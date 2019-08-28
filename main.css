@@ -1,0 +1,112 @@
+/* * {
+    border: 1px solid red !important;
+} */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    border: 1px solid blue !important;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    border: 3px solid red !important;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    border: 3px solid red !important;
+    width: 33.33%;
+}
+
+.col-5 {
+    border: 3px solid black !important;
+    width: 41.66%;
+}
+
+.col-6 {
+    border: 3px solid black !important;
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.hd-sht{
+    display: flex;
+    padding-top: 20px;
+}
+
+h1{
+    color: rgb(51, 119, 119);
+}
+
+h4{
+    color: rgb(38, 77, 77);
+}
+
+.p-img{
+    border-radius: 1000px;
+    margin: auto;
+    width:200px;
+    height:200px;
+}
+
+.hd-con{
+    word-wrap: break-word;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.hd-cn{
+    border: None;
+    word-wrap: break-word;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.as{
+    display: flex;
+}
